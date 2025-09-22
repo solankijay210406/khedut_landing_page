@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-heading-1{
+    font-family: "creato display";
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(36, 37, 44, 1);
+    text-decoration: none;
+}
+
+.main-heading-2{
+    font-family: "creato display";
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(54, 178, 58, 1);
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 3px 7px rgba(0,0,0,0.40);
+}
+
+.main-heading-text{
+    font-family: "plus jakarta sans";
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(133, 133, 133, 1);
+}
+
+.first-container{
+    gap: 60px;
+}
+
+.first-container .content-heading-1{
+    font-family: "creato display";
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(43, 43, 43, 1);
+    text-decoration: none;
+}
+
+.first-container .content-heading-2{
+    font-family: "creato display";
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(54, 178, 58, 1);
+    text-decoration: none;
+}
+
+.first-container .content-text{
+    margin-top: 15px;
+    font-family: "rubik";
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+
+.second-container{
+    margin-top: 150px;
+}
+
+.second-container .left-div{
+    gap: 60px;
+}
+
+.second-container .left-div .image-1{
+    position: absolute;
+    bottom: -2px;
+    right: -7px;
+}
+
+.second-container .right-div{
+    gap: 60px;
+}
+
+.second-container .right-div .image-1{
+    position: absolute;
+    bottom: -3px;
+    left: -13px;
+}
+
+.second-container .content-heading{
+    font-family: "creato display";
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(43, 43, 43, 1);
+}
+
+.second-container .content-text{
+    margin-top: 10px;
+    font-family: "rubik";
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 0.8);
+}
+
+.third-container{
+    margin-top: 160px;
+}
+
+.bg-img{
+    background-image: url(../image/clouds.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.third-container .main-heading-1{
+    font-family: "creato display";
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(36, 37, 44, 1);
+    text-decoration: none;
+}
+
+.third-container .main-heading-2{    
+    font-family: "creato display";
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(54, 178, 58, 1);
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 3px 7px rgba(0,0,0,0.40);
+}
+
+.third-container .content-text{
+    font-family: "rubik";
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    margin-top: 15px;
+}
+
+.fourth-container{
+    margin-top: 150px;
+}
+
+.fourth-container .green-bg{
+    position: absolute;
+    max-width: 251px;
+    top: -5px;
+    left: 5px;
+    height: auto;
+}
+
+.fourth-container .photo{
+    max-width: 261px;
+    -webkit-mask-image: url(../image/green-background.svg);
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-clip: border-box;
+    mask-image: url(../image/green-background.svg);
+    mask-size: 100% 100%;
+    mask-clip: border-box;
+    height:auto;
+}
+
+.fourth-container .team-div{
+    width: 261px;
+}
+
+.fourth-container .name{
+    font-family: "creato display";
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(54, 178, 58, 1);
+    -webkit-text-stroke: 0.5px white;
+    text-shadow: 0px 3px 7px rgba(0,0,0,0.40);
+}
+
+.fourth-container .post{
+    font-family: "rubik";
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+
+.fifth-container{
+    margin-top: 150px;
+    background-image: url(../image/footer-bg.svg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.fifth-container .download-bg{
+    background-image: url(../image/download-bg.png);
+    background-size: cover;
+    background-position: bottom left;
+    padding-top: 35px;
+    padding-bottom: 90px;
+    border-radius: 19.49px;
+    box-shadow: 0px 7.59px 21.38px 0px rgba(0, 0, 0, 0.1);
+}
+
+.fifth-container .heading-1{
+    font-family: "creato display";
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(36, 37, 44, 1);
+    text-decoration: none;
+}
+
+.fifth-container .heading-2{
+    font-family: "creato display";
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(54, 178, 58, 1);
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 3px 7px rgba(0,0,0,0.40);
+}
+
+.fifth-container .button{
+    border-radius: 13px;
+    background-color: rgba(54, 178, 58, 1);
+    border-right: solid 5px rgba(65, 208, 69, 1);
+    border-bottom: solid 5px rgba(65, 208, 69, 1);
+}
+
+.fifth-container .button .text-1{
+    font-family: "rubik";
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-left: 11px;
+}
+
+.fifth-container .button .text-2{
+    font-family: "rubik";
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+
+.sixth-container{
+    margin-top: 160px;
+}
+
+.sixth-container .gujarat-bg{
+    position: absolute;
+    right: 0px;
+    top: -90px;
+    max-height: 650px;
+    width: 50%;
+}
+
+.sixth-container .birds-top{
+    position: absolute;
+    left: -50px;
+    top: -50px;
+}
+
+.sixth-container .heading-1{
+    font-family: "creato display";
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(36, 37, 44, 1);
+    text-decoration: none;
+}
+
+.sixth-container .heading-2{
+    font-family: "creato display";
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(54, 178, 58, 1);
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 3px 7px rgba(0,0,0,0.40);
+}
+
+.sixth-container .button{
+    border-radius: 13px;
+    background-color: rgba(54, 178, 58, 1);
+    border-right: solid 5px rgba(65, 208, 69, 1);
+    border-bottom: solid 5px rgba(65, 208, 69, 1);
+}
+
+.sixth-container .button .text-1{
+    font-family: "rubik";
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-left: 11px;
+}
+
+.sixth-container .button .text-2{
+    font-family: "rubik";
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+
+.sixth-container .text{
+    font-family: "plus jakarta sans";
+    font-size: 16px;
+    font-weight: 500;
+    color: #858585;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.footer{
+    margin-top: 190px;
+}
+
+.footer-content-text{
+    font-family: "rubik";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+
+.footer .heading{
+    font-family: "rubik";
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(18, 24, 40, 1);
+    text-decoration: none;
+}
+
+.footer .text{
+    margin-top: 15px;
+    font-family: "rubik";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(85, 85, 85, 1);
+    text-decoration: none;
+}
+
+.footer .btn-margin{
+    margin-right: 20px;
+}
+
+.fifth-container .back-to-top{
+    font-family: "rubik";
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(85, 85, 85, 1);
+    margin-left: 5px;
+}
+
+.copyright-text-1{
+    font-family: "rubik";
+    font-size: 16px;
+    font-weight: 500;
+    color:rgba(85, 85, 85, 1);
+    text-decoration: none;
+}
+
+.copyright-text-2{
+    font-family: "rubik";
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-shadow: 0px 2px 7px rgba(0, 0, 0, 0.50);
+    -webkit-text-fill-color: rgba(54, 178, 58, 1);
+    -webkit-text-stroke: white 0.2px;
+}
+
+@media (min-width:1400px){
+    .first-container .content-heading-1{
+        font-size: 35px;
+    }
+    .first-container .content-heading-2{
+        font-size: 35px;
+    }
+    .first-container .content-text{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1400px) and (min-width:1200px){
+    .first-container .content-heading-1{
+        font-size: 32px;
+    }
+    .first-container .content-heading-2{
+        font-size: 32px;
+    }
+    .first-container .content-text{
+        font-size: 20px;
+    }
+    .second-container .left-div{
+        gap: 40px;
+    }
+    .second-container .right-div{
+        gap: 40px;
+    }
+    .second-container .content-heading{
+        font-size: 20px;
+    }
+    .second-container .content-text{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .second-container .left-div .image-1{
+        right: 5px;
+    }
+}
+
+@media (max-width:1199px) and (min-width:992px){
+    .second-container{
+        margin-top: 120px;
+    }
+    .third-container{
+        margin-top: 120px;
+    }
+    .fourth-container{
+        margin-top: 120px;
+    }
+    .fifth-container{
+        margin-top: 120px;
+    }
+    .sixth-container{
+        margin-top: 120px;
+    }
+    .footer{
+        margin-top: 120px;
+    }
+    .first-container .content-heading-1{
+        font-size: 28px;
+    }
+    .first-container .content-heading-2{
+        font-size: 28px;
+    }
+    .first-container .content-text{
+        font-size: 17px;
+    }
+    .second-container .left-div{
+        gap: 20px;
+    }
+    .second-container .right-div{
+        gap: 20px;
+    }
+    .second-container .content-heading{
+        font-size: 18px;
+    }
+    .second-container .content-text{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .third-container .main-heading-1{
+        font-size: 38px;
+    }
+    .third-container .main-heading-2{
+        font-size: 38px;
+    }
+    .fourth-container .name{
+        font-size: 18px;
+    }
+    .fourth-container .post{
+        font-size: 12px;
+    }
+    .fifth-container .heading-1{
+        font-size: 38px;
+    }
+    .fifth-container .heading-2{
+        font-size: 38px;
+    }
+    .fifth-container .button .text-1{
+        font-size: 12px;
+    }
+    .fifth-container .button .text-2{
+        font-size: 20px;
+    }
+    .sixth-container .heading-1{
+        font-size: 38px;
+    }
+    .sixth-container .heading-2{
+        font-size: 38px;
+    }
+    .sixth-container .button .text-1{
+        font-size: 12px;
+    }
+    .sixth-container .button .text-2{
+        font-size: 20px;
+    }
+    .sixth-container .gujarat-bg{
+        top: -65px;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px){
+    .second-container{
+        margin-top: 90px;
+    }
+    .third-container{
+        margin-top: 90px;
+    }
+    .fourth-container{
+        margin-top: 90px;
+    }
+    .fifth-container{
+        margin-top: 90px;
+    }
+    .sixth-container{
+        margin-top: 90px;
+    }
+    .footer{
+        margin-top: 140px;
+    }
+    .first-container .content-heading-1{
+        font-size: 25px;
+    }
+    .first-container .content-heading-2{
+        font-size: 25px;
+    }
+    .first-container .content-text{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .second-container .left-div{
+        gap: 30px;
+    }
+    .second-container .right-div{
+        gap: 30px;
+    }
+    .second-container .content-heading{
+        font-size: 20px;
+    }
+    .second-container .content-text{
+        font-size: 17px;
+    }
+    .second-container .left-div .image-1{
+        display: none;
+    }
+    .second-container .right-div .image-1{
+        display: none;
+    }
+    .fifth-container .heading-1{
+        font-size: 30px;
+    }
+    .fifth-container .heading-2{
+        font-size: 30px;
+    }
+    .fifth-container .button .text-1{
+        font-size: 12px;
+    }
+    .fifth-container .button .text-2{
+        font-size: 18px;
+    }
+    .sixth-container .heading-1{
+        font-size: 30px;
+    }
+    .sixth-container .heading-2{
+        font-size: 30px;
+    }
+    .sixth-container .button .text-1{
+        font-size: 12px;
+    }
+    .sixth-container .button .text-2{
+        font-size: 18px;
+    }
+    .sixth-container .gujarat-bg{
+        top: -7px;
+    }
+}
+
+@media (max-width:768px) and (min-width:425px){
+    .second-container{
+        margin-top: 80px;
+    }
+    .third-container{
+        margin-top: 80px;
+    }
+    .fourth-container{
+        margin-top: 80px;
+    }
+    .fifth-container{
+        margin-top: 80px;
+    }
+    .sixth-container{
+        margin-top: 80px;
+    }
+    .footer{
+        margin-top: 80px;
+    }
+    .main-heading-1{
+        font-size: 35px;
+    }
+    .main-heading-2{
+        font-size: 35px;
+    }
+    .first-container .content-heading-1{
+        font-size: 24px;
+    }
+    .first-container .content-heading-2{
+        font-size: 24px;
+    }
+    .first-container .content-text{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .second-container .content-text{
+        margin-top: 5px;
+    }
+    .second-container .left-div .image-1{
+        display: none;
+    }
+    .second-container .right-div .image-1{
+        display: none;
+    }
+    .third-container .main-heading-1{
+        font-size: 27px;
+    }
+    .third-container .main-heading-2{
+        font-size: 27px;
+    }
+    .third-container .content-text{
+        font-size: 16px;
+    }
+    .fifth-container .heading-1{
+        font-size: 38px;
+    }
+    .fifth-container .heading-2{
+        font-size: 38px;
+    }
+    .fifth-container .download-bg{
+        background-position: bottom;
+    }
+    .sixth-container .heading-1{
+        font-size: 38px;
+    }
+    .sixth-container .heading-2{
+        font-size: 38px;
+    }
+    .sixth-container .birds-top{
+        left: 10px;
+    }
+}
+
+@media (max-width:767px) and (min-width:600px){
+    .sixth-container .gujarat-bg{
+        width: 100vw;
+        max-height: 110vh;
+    }
+}
+
+@media (max-width:600px) and (min-width:300px){
+    .sixth-container .gujarat-bg{
+        max-height: 95vh;
+        width: 100vw;
+    }
+}
+
+@media (max-width:425px) and (min-width:300px){
+    .second-container{
+        margin-top: 60px;
+    }
+    .third-container{
+        margin-top: 60px;
+    }
+    .fourth-container{
+        margin-top: 60px;
+    }
+    .fifth-container{
+        margin-top: 60px;
+    }
+    .sixth-container{
+        margin-top: 60px;
+    }
+    .footer{
+        margin-top: 60px;
+    }
+    .main-heading-1{
+        font-size: 30px;
+    }
+    .main-heading-2{
+        font-size: 30px;
+    }
+    .first-container .content-heading-1{
+        font-size: 24px;
+    }
+    .first-container .content-heading-2{
+        font-size: 24px;
+    }
+    .first-container .content-text{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .second-container .left-div .image-1{
+        display: none;
+    }
+    .second-container .right-div .image-1{
+        display: none;
+    }
+    .third-container .main-heading-1{
+        font-size: 25px;
+    }
+    .third-container .main-heading-2{
+        font-size: 26px;
+    }
+    .third-container .content-text{
+        font-size: 16px;
+    }
+    .fifth-container .heading-1{
+        font-size: 32px;
+    }
+    .fifth-container .heading-2{
+        font-size: 32px;
+    }
+    .fifth-container .download-bg{
+        background-position: bottom;
+    }
+    .sixth-container .heading-1{
+        font-size: 32px;
+    }
+    .sixth-container .heading-2{
+        font-size: 32px;
+    }
+    .sixth-container .birds-top{
+        left: 5px;
+    }
+}
+
+@media (max-width:359px) and (min-width:300px){
+    .fifth-container .heading-1{
+        font-size: 27px;
+    }
+    .fifth-container .heading-2{
+        font-size: 27px;
+    }
+    .sixth-container .heading-1{
+        font-size: 27px;
+    }
+    .sixth-container .heading-2{
+        font-size: 27px;
+    }
+}
